@@ -1,0 +1,19 @@
+.skills{
+    margin: var(--spacing-3) 0;
+    color: var(--title-color);
+    font-weight: 300;
+}
+
+.dark .skills{
+    color: var(--dark-title-color);
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li svg{
+    margin: var(--spacing-1);
+}
